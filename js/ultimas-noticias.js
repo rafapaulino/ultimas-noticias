@@ -15,7 +15,7 @@
                 menu.addClass('show');
                 switch(evt.keyCode) {
                     case 13: // Enter key
-                    case 32: // Space bar
+                    //case 32: // Space bar
                     case 38: // Up arrow
                     case 27: // Escape key
                         $this.removeClass("show");
