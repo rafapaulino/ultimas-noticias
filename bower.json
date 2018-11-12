@@ -1,0 +1,25 @@
+{
+  "name": "ultimas-noticias",
+  "homepage": "https://github.com/rafapaulino/ultimas-noticias",
+  "description": "Últimas Notícias na página single",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "news"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Pure-CSS3-Animated-Border": "https://github.com/code-fx/Pure-CSS3-Animated-Border.git",
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3"
+  }
+}
