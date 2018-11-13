@@ -10,6 +10,7 @@
 <!-- Bootstrap core CSS -->
 <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="bower_components/Pure-CSS3-Animated-Border/css/animated-border/animated-border.min.css" rel="stylesheet">
+<link href="bower_components/dropdown-scrollable/css/dropdown.min.css" rel="stylesheet">
 <link href="css/ultimas-noticias.css" rel="stylesheet">
 </head>
 <body>
@@ -94,12 +95,12 @@
                         <!-- /noticias -->
 
 
-                        <!-- dropdown com os temas -->
-                        <div class="dropdown dropdown-theme">
+                        <!-- dropdown -->
+                        <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Selecione um Tema
                             </button>
-                            <div class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu" role="menu">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu" role="menu">
                                 <input type="text" class="form-control" placeholder="Search" aria-label="Search">
                                 
                                 <a class="dropdown-item" href="#">Tema 01</a>
@@ -116,7 +117,7 @@
                                 <a class="dropdown-item" href="#">Tema 12</a>
                             </div>
                         </div>
-                        <!-- /dropdown com os temas -->
+                        <!-- /dropdown -->
 
                     </div>
                 </div>
@@ -128,6 +129,11 @@
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/ultimas-noticias.js"></script>
+<script src="bower_components/dropdown-scrollable/js/dropdown.min.js"></script>
+<script>
+$( window ).on("load", function() {
+    $('.dropdown').dropdownScrollable();
+});
+</script>
 </body>
 </html>

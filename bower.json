@@ -20,6 +20,7 @@
   "dependencies": {
     "Pure-CSS3-Animated-Border": "https://github.com/code-fx/Pure-CSS3-Animated-Border.git",
     "jquery": "^3.3.1",
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.1.3",
+    "dropdown-scrollable": "^1.0.0"
   }
 }

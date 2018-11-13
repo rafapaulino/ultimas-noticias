@@ -12,15 +12,6 @@ module.exports = function(grunt) {
 					]
 				}
 			}
-        },
-        uglify: {
-            target: {
-                files: {
-                    'js/ultimas-noticias.min.js': [
-                        'js/ultimas-noticias.js'
-                    ]
-                }
-            }
         }
     });
 
@@ -29,6 +20,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // Default task.
-    grunt.registerTask('default', ['cssmin','uglify']);
+    grunt.registerTask('default', ['cssmin']);
 
 };
